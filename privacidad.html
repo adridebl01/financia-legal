@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Financia</title>
+<meta name="description" content="Cómo trata Financia tus datos: movimientos en tu dispositivo, sincronización cifrada de extremo a extremo y conexión bancaria opcional.">
+<style>
+  :root { color-scheme: light dark; --bg: #f7f8f5; --paper: #ffffff; --ink: #26332f; --soft: #5e6c62; --line: #e3e9e4; --accent: #205444; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151614; --paper: #1b1c1b; --ink: #dde7e3; --soft: #a3b0aa; --line: #2c302d; --accent: #95c5b3; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--accent); font-weight: 750; font-size: 20px; text-decoration: none; }
+  .brand span { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 10px; background: var(--accent); color: var(--paper); }
+  article { margin-top: 24px; padding: 28px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); }
+  h1 { margin: 0 0 4px; font-size: 30px; letter-spacing: -.5px; line-height: 1.2; }
+  h2 { margin: 30px 0 8px; font-size: 19px; }
+  p, li { color: var(--ink); }
+  .meta, .note { color: var(--soft); font-size: 14px; }
+  .note { padding: 12px 14px; border-left: 3px solid var(--accent); background: var(--bg); border-radius: 0 8px 8px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  .table { overflow-x: auto; }
+  a { color: var(--accent); }
+  footer { margin-top: 24px; color: var(--soft); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="./condiciones.html"><span>f.</span>financia</a>
+  <article>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Última actualización: 28 de octubre de 2026 · Versión piloto</p>
+
+    <p class="note">Financia está en fase de pruebas cerradas. Esta política explica de forma sencilla qué datos tratamos y por qué. Nuestra regla principal: tus movimientos financieros se guardan en tu dispositivo y, si decides sincronizarlos, viajan y se almacenan cifrados de forma que nosotros no podemos leerlos.</p>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <p>Adrian de Blas Terron, con domicilio en España. Contacto para cualquier cuestión de privacidad: <a href="mailto:adridebl01@gmail.com">adridebl01@gmail.com</a>.</p>
+
+    <h2>2. Qué datos tratamos</h2>
+    <div class="table"><table>
+      <thead><tr><th>Datos</th><th>Dónde están</th><th>Para qué</th></tr></thead>
+      <tbody>
+        <tr><td><b>Cuenta</b>: correo electrónico, contraseña (guardada solo como huella cifrada por el proveedor de autenticación) y datos técnicos de la sesión.</td><td>Supabase (servidores en la Unión Europea, Irlanda).</td><td>Crear tu cuenta, iniciar sesión, recuperar el acceso y proteger el servicio.</td></tr>
+        <tr><td><b>Datos financieros</b>: movimientos, conceptos, importes, categorías, reglas, grupos y presupuestos.</td><td>En tu dispositivo (almacenamiento del navegador). No los recibimos.</td><td>Mostrarte tus ingresos, gastos y presupuestos.</td></tr>
+        <tr><td><b>Sincronización entre dispositivos</b> (opcional): copia de tus datos financieros <b>cifrada en tu dispositivo</b> con una frase que solo tú conoces.</td><td>Supabase (UE). Solo guardamos texto cifrado.</td><td>Tener los mismos datos en tus dispositivos. No podemos descifrarlos.</td></tr>
+        <tr><td><b>Conexión bancaria</b> (opcional): cuentas, saldos y movimientos que autorices compartir desde tu banco.</td><td>Los obtiene Enable Banking Oy y se guardan en tu dispositivo.</td><td>Importar tus movimientos sin descargar ficheros.</td></tr>
+        <tr><td><b>Preferencias del dispositivo</b>: tema, ocultar importes, perfiles de columnas de importación, fecha de tu última copia.</td><td>En tu dispositivo.</td><td>Recordar tus ajustes. No contienen movimientos ni importes.</td></tr>
+      </tbody>
+    </table></div>
+    <p>No usamos cookies publicitarias ni herramientas de analítica o seguimiento. No vendemos ni cedemos tus datos.</p>
+
+    <h2>3. Base legal</h2>
+    <ul>
+      <li><b>Ejecución del contrato</b> (las condiciones de uso que aceptas al crear la cuenta): gestionar tu cuenta y prestarte el servicio.</li>
+      <li><b>Tu consentimiento</b>: activar la sincronización y conectar tu banco. Puedes retirarlo en cualquier momento desactivando la sincronización o revocando la conexión, sin que afecte a lo realizado antes.</li>
+      <li><b>Interés legítimo</b>: mantener la seguridad del servicio (por ejemplo, limitar intentos de acceso).</li>
+    </ul>
+
+    <h2>4. Conexión con tu banco</h2>
+    <p>La lectura de cuentas bancarias la realiza <b>Enable Banking Oy</b> (Finlandia), proveedor de servicios de información sobre cuentas registrado y supervisado por la autoridad financiera finlandesa (FIN-FSA) conforme a la Directiva de servicios de pago (PSD2). Para conectar, te identificas directamente en tu banco y aceptas las condiciones de uso de Enable Banking. Financia nunca ve tus credenciales bancarias y solo tiene acceso de lectura: no puede hacer pagos ni transferencias. El acceso dura el plazo que fije tu banco (normalmente hasta 180 días) y puedes revocarlo antes.</p>
+    <p>Durante la fase de pruebas, los datos bancarios se descargan a tu dispositivo. Si en algún momento hiciera falta que pasen por un servidor intermedio nuestro, solo se reenviarán sin almacenarse ni registrarse, y actualizaremos esta política.</p>
+
+    <h2>5. Destinatarios y encargados</h2>
+    <ul>
+      <li><b>Supabase, Inc.</b>: autenticación y almacenamiento cifrado de la sincronización, en la región de la UE (Irlanda).</li>
+      <li><b>Enable Banking Oy</b>: conexión bancaria, si la activas.</li>
+      <li>El proveedor de alojamiento de la web, que recibe datos técnicos de acceso (dirección IP, navegador) necesarios para servir la aplicación.</li>
+    </ul>
+    <p>Algunos proveedores pueden pertenecer a grupos con sede fuera del Espacio Económico Europeo. Cuando haya transferencias internacionales, se realizan con las garantías previstas en el RGPD (como las cláusulas contractuales tipo de la Comisión Europea).</p>
+
+    <h2>6. Cuánto tiempo conservamos los datos</h2>
+    <ul>
+      <li>Datos de la cuenta: mientras la mantengas activa. Si la eliminas, se borran salvo obligación legal de conservarlos.</li>
+      <li>Copia cifrada de la sincronización: hasta que desactives la sincronización eligiendo borrar la copia del servidor, o elimines tu cuenta.</li>
+      <li>Datos en tu dispositivo: los controlas tú; se borran al eliminarlos en la app o al borrar los datos del navegador.</li>
+    </ul>
+
+    <h2>7. Seguridad</h2>
+    <p>Las comunicaciones van cifradas (HTTPS). La sincronización usa cifrado de extremo a extremo (AES-256-GCM, con la clave protegida mediante Argon2id). Las copias de seguridad que descargas también van cifradas con tu frase. Si olvidas tu frase de sincronización y tu clave de recuperación, no podremos recuperar la copia del servidor.</p>
+
+    <h2>8. Tus derechos</h2>
+    <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href="mailto:adridebl01@gmail.com">adridebl01@gmail.com</a>. Muchos de ellos puedes ejercerlos directamente en la app (exportar o borrar tus datos). Si consideras que no hemos atendido bien tu solicitud, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
+
+    <h2>9. Menores</h2>
+    <p>Financia está dirigida a mayores de 18 años.</p>
+
+    <h2>10. Cambios</h2>
+    <p>Si cambiamos esta política te lo indicaremos en la app antes de que el cambio se aplique.</p>
+  </article>
+  <footer><a href="./condiciones.html">Condiciones de uso</a> · Financia</footer>
+</main>
+</body>
+</html>
